@@ -1,4 +1,4 @@
-const Goal = require('../model/goal');
+const Goal = require('../models/goal');
 const logger = require('../utils/logger');
 const sanitizeHtml = require('sanitize-html');
 

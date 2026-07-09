@@ -18,7 +18,7 @@ mongoose.connect(MONGODB_URI)
   .catch((err) => console.error("Connection failed:", err));
 
 //!important
-const goalRouter = require('./router/goalRouter');
+const goalRouter = require('./routes/goalRouter');
 
 // Middleware
 app.use(express.urlencoded({ extended: true }));

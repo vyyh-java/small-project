@@ -1,6 +1,6 @@
 const express = require('express');
 const goalRouter = express.Router();
-const goalController = require('../controller/goalController');
+const goalController = require('../controllers/goalController');
 
 goalRouter.get("/",goalController.fetchAll);
 
